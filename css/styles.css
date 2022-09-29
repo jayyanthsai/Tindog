@@ -1,0 +1,174 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+h1{
+  /* font-family: 'Montserrat', sans-serif; */
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.6rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+p{
+  color: #8f8f8f;
+}
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.container-fluid{
+  padding: 3% 15% 5%;
+}
+ /* Navigation bar */
+ .navbar-brand{
+   font-family: "Ubuntu";
+  font-size: 2.1rem;
+  font-weight: bold;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+/* Download buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+/* Title Image */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+.iphone_img{
+  position: relative;
+}
+
+/* features section */
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.feature_icon{
+  text-align: center;
+  padding: 5%;
+}
+.icon_1{
+  color: #A91079;
+  margin-bottom: 1rem;
+}
+.icon_1:hover{
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+
+#testimonials{
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonials-image{
+  width: 10%;
+  border-radius: 200%;
+  margin: 20px;
+}
+
+/* PRESS */
+
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+
+ /* Advanced media CSS */
+
+@media (max-width:991.33px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+  position: static;
+  transform: rotate(0);
+}
+}
+@media (max-width:1035.30px) and (min-width:991.34px) {
+
+  .title-image{
+      position: absolute;
+      transform: rotate(0);
+      height: 100%;
+      width: 80%;
+      right: 0;
+}
+}
+
+@media (min-width:1035.33px) and (max-width:1149.33px) {
+  .title-image{
+  position: absolute;
+  right: 5%;
+  transform: rotate(0);
+}
+}
+/*  fine  1149.33px*/
+
+
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+.CTA_h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+/* footer section */
+
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social_icon{
+  margin: 20px 10px;
+}
